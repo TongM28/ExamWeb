@@ -1,0 +1,148 @@
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .nelson_flex{
+            display:flex;
+            flex-direction: column;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+        }
+        .text_information{
+            display: flex;
+            flex-direction: column;
+        }
+        .quote {
+            font-style: italic;
+            font-size: 24px;
+            text-align: right;
+            margin: 20px 0;
+            align-self: center;
+            background-color: #ece6e6;
+
+        }
+        .section {
+            margin-bottom: 50px;
+        }
+        .content {
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 20px;
+        }
+        .content .text {
+            flex: 3;
+            padding: 20px;
+        }
+        .content .sidebar {
+            flex: 1;
+            background-color: #ece6e6;
+            padding: 20px;
+            margin-left: 20px;
+            
+        }
+
+        h1 {
+            color: #2e8b57;
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+        h1.hochiminh {
+            color: #3cb371;
+        }
+
+        .images, .video {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+        }
+        .images img, .video iframe {
+            width: 80%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+        .comment-section {
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+        }
+        .comment-section textarea {
+            width: 100%;
+            height: 100px;
+            padding: 10px;
+            font-size: 16px;
+        }
+        .comment-section button {
+            display: block;
+            width: 100px;
+            padding: 10px;
+            background-color: black;
+            color: white;
+            border: none;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 10px;
+            align-self: flex-end;
+            
+        }
+        .sidebar ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .sidebar ul li {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        li{
+        font-weight: bold;
+        color: #aa676c;
+        font-size: 20px;
+        }
+        .Nelson_flex {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+        
+        .text_information {
+            flex: 1;
+            padding: 10px;
+        }
+        
+        .quote {
+            flex: 1;
+            padding: 10px;
+            font-style: italic;
+            text-align: right;
+            
+        }
+        
+        @media (max-width: 768px) {
+            .Nelson_flex {
+                flex-direction: column;
+            }
+        
+            .text_information, .quote {
+                text-align: left;
+            }
+        }
+        .img{
+        }
+        .img1,
+        .img2,
+        .img3{
+            width: 300px;
+            height: 350px;
+        }
+        .img2{
+            margin-left: 145px;
+        }
+        .img3{
+            margin-top: 30px;
+        }
